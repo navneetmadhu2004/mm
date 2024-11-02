@@ -116,6 +116,17 @@ printf("Enter the Available Matrix");
  printf(" P%d ", safesequence[i]);
 }
 
+inputs 
+process:3
+resource:3
+alloc matrix:001
+             012
+             315
+max matrix:315
+           035
+           416
+avail:921
+
 PASS 1
 #include<stdio.h>
  #include<stdlib.h>
